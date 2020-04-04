@@ -8,19 +8,19 @@
       </span>
       <span class="guide_item" :class="{on: '/search'===$route.path}" @click="goTo('/search')">
           <span class="item_icon">
-
+             <i class="iconfont icon-waimai"></i>
           </span>
           <span>搜索</span>
       </span>
       <span class="guide_item" :class="{on: '/order'===$route.path}" @click="goTo('/order')">
           <span class="item_icon">
-
+             <i class="iconfont icon-waimai"></i>
           </span>
           <span>订单</span>
       </span>
       <span class="guide_item" :class="{on: '/profile'===$route.path}" @click="goTo('/profile')">
           <span class="item_icon">
-
+             <i class="iconfont icon-waimai"></i>
           </span>
           <span>我的</span>
       </span>
@@ -40,6 +40,7 @@ export default {
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  @import "../common/stylus/mixins.styl"
    .footer_guide
       position fixed
       z-index 100
@@ -67,6 +68,6 @@ export default {
            margin-bottom 2px
            .iconfont
               font-size 22px
-
+ 
 </style>
 

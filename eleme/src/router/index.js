@@ -5,7 +5,7 @@ const MSite = () => import('../pages/MSite/MSite.vue')
 const Order = () => import('../pages/Order/Order.vue')
 const Profile = () => import('../pages/Profile/Profile.vue')
 const Search = () => import('../pages/Search/Search.vue')
-
+//声明使用插件
 Vue.use(Router)
 
 export default new Router({

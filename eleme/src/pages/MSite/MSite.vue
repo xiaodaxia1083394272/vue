@@ -1,13 +1,14 @@
 <template>
     <section class="msite">
         <HeaderTop title="地址">
-         <router-link class="header_search" slot="left" >
-         </router-link>
-         <router-link class="header_login" slot="right">
-             <span>
+         <span class="header_search" slot="left" >
+           <i class="iconfont icon-sousuo"></i>
+         </span>
+         <span class="header_login" slot="right">
+             <span class="header_login_text">
                   登录|注册
              </span>
-         </router-link>
+         </span>
         </HeaderTop>
         <div class="mister-content-wrapper">
             <div class="miste-content">
@@ -49,8 +50,6 @@ export default {
          bottom-border-1px(#e4e4e4)
          margin-top 15px
          height 200px
-         background-color green
-
- 
+         background-color green 
 </style>
 
